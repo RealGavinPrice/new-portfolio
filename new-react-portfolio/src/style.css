@@ -41,7 +41,7 @@
     justify-content: center;
     flex: 1 0 30; 
     width: 100%;
-    background-image: url("profilepic.jpg");
+    background-image: url("../public/images/profilepic.jpg");
     background-size: 100%;
     opacity: .3;
     border-radius: var(--radius1);
