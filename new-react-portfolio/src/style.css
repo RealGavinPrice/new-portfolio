@@ -1,0 +1,281 @@
+:root {
+    --color1: rgba(255, 213, 129, 0.802);
+    --color2:  rgb(252, 217, 104);
+    --color3:  rgb(255, 186, 47);
+    --color4:  rgba(84, 42, 162, 0.55);
+    --color5:  rgb(0, 0, 0);
+    --color6: rgba(87, 116, 60, 0.934);
+    --buttoncolor: rgb(84, 42, 162);
+    --boxwidth: auto;
+    --sectionwidth: auto;
+    --bordertype: 1px solid whitesmoke;
+    --firstransition: 1s ease;
+    --secondtransition: 2s ease-in-out;
+    --radius1: 2%;
+}
+   header {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: var(--color5);
+    border-bottom-left-radius: var(--radius1);
+    border-bottom-right-radius: var(--radius1);
+   }
+
+   header h1 {
+    padding-top: 1em;
+    padding-bottom: .27em;
+    font-size: 400%;
+   }
+
+   .profilepiccontainer {
+    display: flex;
+   }
+   .HiddenPic {
+    height: 10em;   
+    display: flex;
+    display: block;
+    justify-content: center;
+    flex: 1 0 30; 
+    width: 100%;
+    background-image: url("profilepic.jpg");
+    background-size: 100%;
+    opacity: .3;
+    border-radius: var(--radius1);
+    background-repeat: no-repeat;   
+    background-position-y: 15%;
+
+}
+
+    .HiddenPic:hover {
+    opacity: 1;
+    transition: var(--secondtransition);
+}
+
+    a {
+    text-decoration: none;
+    color: rgba(255, 235, 205, 0.724);
+}
+
+   .background-image {
+    position: fixed;
+    z-index: -1;
+    padding: 60vh;
+    background-image: url("aus2.jpg");
+    background-size: cover;
+    width: 100vh;
+    opacity: 1;
+ }
+
+   nav {
+    position: fixed;
+    background-color: var(--color5);
+    top: 0;
+    width: 100%;
+    border-top: var(--bordertype);
+    border-bottom: var(--bordertype);
+    z-index: 3;
+}
+
+    nav ul {
+    text-align: center;
+
+}
+
+    nav ul li {
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    display: inline-flex;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+    nav li a {
+    padding: 1em .5em;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+    ul li:not(:last-child) {
+    border-right: 1px solid whitesmoke;
+}
+
+    li:hover {
+    background-color: var(--color6);
+    transition: var(--firstransition);
+}
+
+
+    main {
+    margin-top: 50vh;
+    justify-content: center;
+    height: 175%;
+    border: 2px dashed gray;
+    border-radius: 2%;
+}
+
+    .label {
+    margin: auto;
+    padding: 50%;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 0px 10px var(--color4) inset;
+    border: 0 solid black;
+    border-radius: 50%;
+    z-index: 2;
+}
+    h2 {
+    text-align: center;}
+
+    section {
+    border: 2px dashed gray;
+    border-radius: 10px;
+    padding: .25em;
+    width: var(--sectionwidth);
+   }
+
+
+    div {
+    padding-block: 1px;
+}
+
+    iframe {
+    border-radius: 50%;
+    opacity: 35%;
+    width: 20vh;
+    height: 20vh
+}
+    iframe:hover {
+    transition: 5s;
+    opacity: 100%;
+    width: 50vh;
+    height: 50vh;
+    margin-left: -20vh;
+}
+    .Ghosttype {
+    background-image: url(a3774195088_16.jpeg); 
+    background-size: 100%;
+    opacity: .3; 
+    border-radius: 50%;
+    height: 100%; 
+    width: 100%; 
+    z-index: 2;            
+}
+
+.Shareabyte{
+    background-image: url(share-a-byte_logo.png); 
+    background-size: 100%;
+    opacity: .3; 
+    border-radius: 50%;
+    height: 100%; 
+    width: 100%; 
+    z-index: 2;            
+}
+
+.Shareabyte:hover{
+    transition: 5s ease;
+    opacity: 1;
+}
+.Ghosttype:hover{
+    transition: 5s ease;
+    opacity: 1;
+}
+
+   footer{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1%;
+    left: 0;
+    width: 100%;
+    color: rgb(245, 244, 244);
+    text-align: center;
+    font-size: smaller;
+}
+
+
+    .label:hover {
+    font-size: 142%;
+    box-shadow: 0 0 10px rgb(150, 3, 255) inset;
+    background-color: var(--buttoncolor);
+    transition: var(--firstransition);
+}
+
+    .label:focus {
+    outline: none;
+    border-color: #8ac4ff;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+    }
+
+    .HiddenPic {
+        width: 100%;
+    }
+
+    .HiddenPic:active {
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    .label:active{
+        font-size: 142%;
+        box-shadow: 0 0 10px rgb(150, 3, 255) inset;
+        background-color: var(--buttoncolor);
+        transition: var(--firstransition);
+    }
+    main {
+        transition: var(--secondtransition);
+    }
+     
+    footer {
+        transition: var(--secondtransition);
+        font-size: x-small;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 100%;
+    }
+    main {
+        transition: var(--secondtransition);
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 28vh;
+    }
+
+    .label {
+        flex: .5 1;
+        height: 25vh;
+        width: 25vh;
+    }
+    }
+
+
+@media only screen and (min-width: 992px) {
+    body {
+        width: 100%;
+    }
+    main {
+        transition: var(--secondtransition);
+        width: 100%;
+    }
+}
