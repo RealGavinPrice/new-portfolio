@@ -31,7 +31,7 @@ function App() {
         {activeSection === 'About' && <AboutSection />}
         {activeSection === 'Portfolio' && <PortfolioSection />}
         {activeSection === 'Music' && <MusicSection />}
-        {activeSection === 'First Git' && <FirstGitSection />}
+        {activeSection === 'First Git' && <GitSection />}
         {activeSection === 'Who' && <WhoSection />}
         {activeSection === 'Contact' && <ContactSection />}
       </main>
