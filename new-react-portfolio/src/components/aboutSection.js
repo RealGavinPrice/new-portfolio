@@ -8,7 +8,7 @@ function AboutSection() {
           <a href="https://thebasics.dance/about-moksha">About me</a>
         </h2>
         <br />
-        <h3></h3>
+        <h3> </h3>
         <p></p>
       </section>
     );
