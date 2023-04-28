@@ -12,6 +12,8 @@
     --firstransition: 1s ease;
     --secondtransition: 2s ease-in-out;
     --radius1: 2%;
+    --background: linear-gradient(to right, #0575E6, #00F260),
+
 }
    header {
     position: absolute;
@@ -64,7 +66,7 @@
     position: fixed;
     z-index: -1;
     padding: 60vh;
-    background-image: url("aus2.jpg");
+    background-image: url("../public/images/aus2.jpg");
     background-size: cover;
     width: 100vh;
     opacity: 1;
@@ -157,7 +159,7 @@
     margin-left: -20vh;
 }
     .Ghosttype {
-    background-image: url(a3774195088_16.jpeg); 
+    background-image: url(../public/images/a3774195088_16.jpeg); 
     background-size: 100%;
     opacity: .3; 
     border-radius: 50%;
@@ -167,7 +169,7 @@
 }
 
 .Shareabyte{
-    background-image: url(share-a-byte_logo.png); 
+    background-image: url(../public/images/share-a-byte_logo.png); 
     background-size: 100%;
     opacity: .3; 
     border-radius: 50%;

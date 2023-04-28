@@ -8,9 +8,9 @@ function MusicSection() {
             <a href="https://tenderband.bandcamp.com//">Music</a>
           </h2>
           <br />
-          <h3></h3>
+          <h3> </h3>
         </div>
-      </section>
+      </section> 
     );
   }
 
