@@ -1,6 +1,16 @@
+import { useEffect, useRef } from 'react';
 
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
+function Game() {
+  const canvasRef = useRef(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext("2d");
+
+    // Your game drawing function
+    function draw() {
+      // Your game code here
+      var canvas = document.getElementById("myCanvas");
 var ballRadius = 10;
 var x = canvas.width/2;
 var y = canvas.height-30;
@@ -19,8 +29,6 @@ var brickPadding = 10;
 var brickOffsetTop = 30;
 var brickOffsetLeft = 30;
 var score = 0;
-
-function Game() {
 
   var bricks = [];
 for(var c=0; c<brickColumnCount; c++) {
@@ -64,12 +72,12 @@ function collisionDetection() {
   for(var c=0; c<brickColumnCount; c++) {
     for(var r=0; r<brickRowCount; r++) {
       var b = bricks[c][r];
-      if(b.status == 1) {
+      if(b.status === 1) {
         if(x > b.x && x < b.x+brickWidth && y > b.y && y < b.y+brickHeight) {
           dy = -dy;
           b.status = 0;
           score++;
-          if(score == brickRowCount*brickColumnCount) {
+          if(score === brickRowCount*brickColumnCount) {
             alert("YOU WIN, CONGRATS!");
             document.location.reload();
             clearInterval(interval); // Needed for Chrome to end game
@@ -97,7 +105,7 @@ function drawPaddle() {
 function drawBricks() {
   for(var c=0; c<brickColumnCount; c++) {
     for(var r=0; r<brickRowCount; r++) {
-      if(bricks[c][r].status == 1) {
+      if(bricks[c][r].status === 1) {
         var brickX = (r*(brickWidth+brickPadding))+brickOffsetLeft;
         var brickY = (c*(brickHeight+brickPadding))+brickOffsetTop;
         bricks[c][r].x = brickX;
@@ -154,6 +162,23 @@ function draw() {
 }
 
 var interval = setInterval(draw, 10);
+
+
+    }
+
+
+    // Call the draw function repeatedly using requestAnimationFrame
+    let frameId;
+    function animate() {
+      frameId = requestAnimationFrame(animate);
+      draw();
+    }
+    animate();
+
+    // Cleanup function to cancel animation frame when the component is unmounted
+    return () => cancelAnimationFrame(frameId);
+  }, []);
+
 
 }
 

@@ -13,7 +13,7 @@ import Git from "./components/gitSection";
 import NoMatch from "./components/whoSection";
 import Contact from "./pages/Contact";
 import Footer from './components/Footer';
-import GamePlay from './pages/GamePlay'
+import Game from './pages/game'
 // import Header from './components/Header';
 
 
@@ -60,7 +60,7 @@ function App() {
               />
               <Route
                 path="/game"
-                element={<GamePlay />}
+                element={<Game />}
                 />
             </Routes>
             <Footer />
