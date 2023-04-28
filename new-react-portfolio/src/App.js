@@ -8,12 +8,12 @@ import Nav from "./components/Navigation";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import Music from "./components/musicSection";
+import Music from "./pages/Music";
 import Git from "./components/gitSection";
 import NoMatch from "./components/whoSection";
 import Contact from "./pages/Contact";
 import Footer from './components/Footer';
-import Game from './components/game'
+import GamePlay from './pages/GamePlay'
 // import Header from './components/Header';
 
 
@@ -60,7 +60,7 @@ function App() {
               />
               <Route
                 path="/game"
-                element={<Game />}
+                element={<GamePlay />}
                 />
             </Routes>
             <Footer />

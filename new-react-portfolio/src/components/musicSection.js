@@ -2,6 +2,7 @@ import React from "react";
 
 function MusicSection() {
     return (
+      <div className='background-image'>
       <section className="label" id="Music">
         <div className="Ghosttype">
           <h2 id="button">
@@ -11,6 +12,7 @@ function MusicSection() {
           <h3> </h3>
         </div>
       </section> 
+      </div>
     );
   }
 

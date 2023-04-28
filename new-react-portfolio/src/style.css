@@ -140,11 +140,12 @@
 }
 
     .label {
-    margin: auto;
-    margin-top: -25%;
+    /* margin: auto; */
     padding: 33%;
     height: 100px;
     width: 100px;
+    margin-left: -30%;
+    margin-top: -30%;
     box-shadow: 0px 0px 10px var(--color4) inset;
     border: 0 solid black;
     border-radius: 50%;
