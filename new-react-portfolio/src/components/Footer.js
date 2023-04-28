@@ -5,7 +5,7 @@ function Footer() {
     <footer id="footer">
       <h1> </h1>
       <section className="profilepiccontainer">
-        <div className="HiddenPic"></div>
+        <div className="DownPic"></div>
       </section>
     </footer>
   );

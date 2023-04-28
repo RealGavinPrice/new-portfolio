@@ -4,12 +4,14 @@ import React from "react";
 
 function Home() {
   return (
-    <header id="Home">
-      <h1> </h1>
+    <div>
+    <header id="Home" className='background-image'> 
+    </header>
       <section className="profilepiccontainer">
         <div className="HiddenPic"></div>
       </section>
-    </header>
+   
+    </div>
   );
 }
 

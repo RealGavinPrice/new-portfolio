@@ -1,23 +1,24 @@
 import React from "react";
 
+
 function Navigation() {
   return (
-    <nav id="navigation">
+    <nav id="nav">
       <ul>
         <li>
-          <a href="#Home">Home</a>
+          <a href="/home">Home</a>
         </li>
         <li>
-          <a href="#About">About</a>
+          <a href="/about">About</a>
         </li>
         <li>
-          <a href="#Portfolio">Portfolio</a>
+          <a href="/portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#Contact">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
         <li>
-          <a href="#Music">Music</a>
+          <a href="/music">Music</a>
         </li>
       </ul>
     </nav>
