@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-function Game() {
+function GamePlay() {
   const canvasRef = useRef(null);
 
   useEffect(() => {
@@ -182,4 +182,4 @@ var interval = setInterval(draw, 10);
 
 }
 
-export default Game;
+export default GamePlay;

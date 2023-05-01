@@ -9,8 +9,8 @@
     --boxwidth: auto;
     --sectionwidth: auto;
     --bordertype: 1px solid whitesmoke;
-    --firstransition: 1s ease;
-    --secondtransition: 2s ease-in-out;
+    --firstransition: .5s ease;
+    --secondtransition: 1s ease-in-out;
     --radius1: 2%;
     --background: linear-gradient(to right, #0575E6, #00F260),
 
@@ -79,17 +79,17 @@
 }
 
    .background-image {
-    position: fixed;
+    position: relative;
     padding: 60vh;
     background-image: url("../public/images/aus2.jpg");
     background-size: cover;
-    width: 100vh;
+    width: 100%;
     opacity: 1;
  }
 
    nav {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     position: fixed;
     background-color: var(--color5);
@@ -101,7 +101,6 @@
 }
 
    nav ul {
-    display: flex; 
     text-align: center;
 
 }
