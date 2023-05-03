@@ -6,7 +6,7 @@ function PortfolioSection() {
       <section className="label" id="Portfolio">
         <div className="Shareabyte">
           <h2 id="button">
-            <a href="https://share-a-byte.herokuapp.com/">Share-A-Byte</a>
+            <a href="https://github.com/RealGavinPrice/">Gavin's Git</a>
           </h2>
           <br />
           <h3></h3>
