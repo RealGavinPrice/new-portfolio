@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RealGavinPrice/new-portfolio/static/css/main.35416963.css",
-    "main.js": "/RealGavinPrice/new-portfolio/static/js/main.18e5b046.js",
+    "main.js": "/RealGavinPrice/new-portfolio/static/js/main.390fdf0d.js",
     "static/js/787.15dc5c4b.chunk.js": "/RealGavinPrice/new-portfolio/static/js/787.15dc5c4b.chunk.js",
     "static/media/faviconHead.png": "/RealGavinPrice/new-portfolio/static/media/faviconHead.03f6d35518cefa365da3.png",
     "static/media/aus2.jpg": "/RealGavinPrice/new-portfolio/static/media/aus2.2276a8e1bc5558b647dd.jpg",
@@ -11,11 +11,11 @@
     "static/media/logo.svg": "/RealGavinPrice/new-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/RealGavinPrice/new-portfolio/index.html",
     "main.35416963.css.map": "/RealGavinPrice/new-portfolio/static/css/main.35416963.css.map",
-    "main.18e5b046.js.map": "/RealGavinPrice/new-portfolio/static/js/main.18e5b046.js.map",
+    "main.390fdf0d.js.map": "/RealGavinPrice/new-portfolio/static/js/main.390fdf0d.js.map",
     "787.15dc5c4b.chunk.js.map": "/RealGavinPrice/new-portfolio/static/js/787.15dc5c4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35416963.css",
-    "static/js/main.18e5b046.js"
+    "static/js/main.390fdf0d.js"
   ]
 }
