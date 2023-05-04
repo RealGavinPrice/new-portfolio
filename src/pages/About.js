@@ -6,7 +6,7 @@ function About() {
       <div className='background-image'>
       <section className="label" id="About">
         <h2 id="button">
-          <a href="https://thebasics.dance/about-moksha">About me</a>
+          <a href="https://thebasics.dance/#music">About me</a>
         </h2>
         <br />
         <h3> </h3>
