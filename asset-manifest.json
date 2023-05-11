@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac0330df.css",
-    "main.js": "/static/js/main.25da5958.js",
+    "main.css": "/static/css/main.d5ff8fa8.css",
+    "main.js": "/static/js/main.32008475.js",
     "static/js/787.15dc5c4b.chunk.js": "/static/js/787.15dc5c4b.chunk.js",
     "static/media/faviconHead.png": "/static/media/faviconHead.03f6d35518cefa365da3.png",
     "static/media/aus2.jpg": "/static/media/aus2.2276a8e1bc5558b647dd.jpg",
+    "static/media/aus3.jpg": "/static/media/aus3.9b99ec36a44bfada3a33.jpg",
     "static/media/profilepic.jpg": "/static/media/profilepic.6b357d7325c2ee9bea93.jpg",
     "static/media/a3774195088_16.jpeg": "/static/media/a3774195088_16.f8836b07fece676fe73b.jpeg",
     "static/media/gavinheadshot.jpeg": "/static/media/gavinheadshot.0cb4ee900955159e259f.jpeg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.ac0330df.css.map": "/static/css/main.ac0330df.css.map",
-    "main.25da5958.js.map": "/static/js/main.25da5958.js.map",
+    "main.d5ff8fa8.css.map": "/static/css/main.d5ff8fa8.css.map",
+    "main.32008475.js.map": "/static/js/main.32008475.js.map",
     "787.15dc5c4b.chunk.js.map": "/static/js/787.15dc5c4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac0330df.css",
-    "static/js/main.25da5958.js"
+    "static/css/main.d5ff8fa8.css",
+    "static/js/main.32008475.js"
   ]
 }
